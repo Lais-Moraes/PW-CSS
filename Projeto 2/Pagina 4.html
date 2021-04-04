@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="Estilo.css">
+
+</head>
+<body>
+	<div id="Cabecalho">
+		<header> <!--Tag para linkar outra página-->
+		<ul> <!--Lista ordenada-->
+			<li>
+				<a href="Index.html">Signos</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="Pagina 2.html">Elementos</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="Pagina 3.html">Descobrindo seu Mapa Astral</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="Pagina 4.html">Formulario</a>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<a href="Pagina 5.html">Casas e Planetas</a>
+			</li>
+		</ul>
+		</header>
+	</div>
+	
+	<div id=corpo>
+		<h1 class="Titulo">Formulario dos Signos</h1>
+		
+		<form id="Formulario">
+			<label for="Nome"> <!--Tag para inserir uma etiqueta-->
+				Insira seu nome:
+			</label>
+			<input type="text" name="Nome" placeholder="Insira seu nome aqui"> <!--Name sempre tem que estar igual ao nome do Label for-->
+			<br>
+			<label for="Sobrenome">
+				Insira seu sobrenome:
+			</label>
+			<input type="text" name="Sobrenome" placeholder="Insira seu sobrenome aqui">
+			<br>
+			<label for="Idade">
+				Insira sua idade
+			</label>
+			<input type="number" name="Idade" min="0" max="200">
+			<br>
+			<p>Qual elemento você mais se identifica?</p>
+			<label for="Terra">
+				Terra
+			</label>
+			<input type="checkbox" name="Terra">
+			<label for="Ar">
+				Ar
+			</label>
+			<input type="checkbox" name="Ar">
+			<label for="Água">
+				Água
+			</label>
+			<input type="checkbox" name="Água">
+			<label for="Fogo">
+				Fogo
+			</label>
+			<input type="checkbox" name="Fogo">
+			<br>
+			<p>Qual seu signo solar?</p>
+			<label for="Áries">
+				Áries
+			</label>
+			<input type="radio" id="Áries" name="Signo">
+			<label for="Touro">
+				Touro
+			</label>
+			<input type="radio" id="Touro" name="Signo">
+			<label for="Gêmeos">
+				Gêmeos
+			</label>
+			<input type="radio" id="Gêmeos" name="Signo">
+			<label for="Câncer">
+				Câncer
+			</label>
+			<input type="radio" id="Câncer" name="Signo">
+			<label for="Leão">
+				Leão
+			</label>
+			<input type="radio" id="Leão" name="Signo">
+			<label for="Virgem">
+				Virgem
+			</label>
+			<input type="radio" id="Virgem" name="Signo">
+			<label for="Libra">
+				Libra
+			</label>
+			<input type="radio" id="Libra" name="Signo">
+			<label for="Escorpião">
+				Escorpião
+			</label>
+			<input type="radio" id="Escorpião" name="Signo">
+			<label for="Sagitário">
+				Sagitário
+			</label>
+			<input type="radio" id="Sagitário" name="Signo">
+			<label for="Capricórnio">
+				Capricórnio
+			</label>
+			<input type="radio" id="Capricórnio" name="Signo">
+			<label for="Áquario">
+				Áquario
+			</label>
+			<input type="radio" id="Áquario" name="Signo">
+			<label for="Peixes">
+				Peixes
+			</label>
+			<input type="radio" id="Peixes" name="Signo">
+			<br>
+			<p> Qual sua data de nascimento</p>
+			<label for="Data de nascimento">
+			<input type="date" name="Data de nascimento">
+			</label>
+			<br>
+			<br>
+			<label for="Email">
+				Insira seu Email
+			<input type="Email" name="Email">
+			</label>
+			<br>
+			<label for="Mapa Astral">
+				Envie seu Mapa Astral
+			</label>
+			<input type="file" name="Mapa Astral">
+			<br>
+			<br>
+			<input type="reset" name="Limpar" value="Limpar Formulario">
+			<input type="submit" name="Enviar" value="Enviar Formulario">	
+
+		</form>
+		</div>
+	
+	<footer>
+		<div id="Rodape">
+			<p>Desenvolvido por Lais Moraes</p>	
+		</div>
+	</footer>
+
+</body>
+</html>

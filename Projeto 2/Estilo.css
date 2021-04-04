@@ -1,0 +1,130 @@
+#Cabecalho {
+	background-color: #F0FFFF;
+	font-family: Papyrus, fantasy;
+	font-size: 20px;
+}
+
+#Cabecalho ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: inline
+}
+
+#Cabecalho ul li {
+	display: inline;
+}
+
+#Cabecalho ul li a {
+	padding: 3px 15px;
+	display: inline-block;
+	color: #000000;
+	text-decoration: none;
+}
+
+#Cabecalho ul li a:hover {
+	background-color: #20B2AA;
+	color: #FFFFFF;
+
+}
+
+.Titulo {
+	text-align: center;
+	font-size: 48px;
+	font-family: Papyrus, fantasy;
+}
+
+#Rodape {
+	height: 5%;
+	width: 100%;
+	background-color: #4F4F4F;
+	color: #FFFFFF;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+}
+
+#constelacao {
+	display: flex;
+	flex-flow: column;
+	padding: 10px;
+	max-height: 500px;
+	max-width: 400px;
+	margin: auto;
+}
+
+#legendasignos {
+	background-color: #F0F8FF;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font: italic;
+	padding: 3px;
+	text-align: center;
+}
+
+.paragrafo {
+	text-indent: 3em;
+	margin: 15px;
+	font-size: 20px;
+	text-align: justify;
+	font-family: Garamond, serif;
+}
+
+#mesessignos {
+	display: inline-block;
+	padding: 15px
+	margin: auto;
+	max-height: 350px;
+	max-width: 350px;
+}
+
+#energia {
+	display: inline-block;
+	padding: 15px
+	margin: auto;
+	max-height: 350px;
+	max-width: 350px;
+}
+
+#elemento {
+	display: inline-block;
+	padding: 15px
+	margin: auto;
+	max-height: 350px;
+	max-width: 350px;
+}
+
+#Info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#Info th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #8A2BE2;
+	color: #FFFFFF;
+	border: 2px solid #473C8B;
+}
+
+#Info tr td {
+	border: 2px solid #473C8B;
+}
+
+#Info tr:nth-child(even) {
+	background-color: #EEAEEE;
+	color: #1C1C1C;
+}
+
+#Info tr:hover {
+	background-color: #E0EEEE
+}
+
+#Formulario {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+
+}
